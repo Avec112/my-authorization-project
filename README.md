@@ -1,13 +1,16 @@
 # my-authorization-project
-This project demonstrates the new Spring Authorization Server.
+This project demonstrates the new Spring Authorization Server and how to integrate.
+
+![auth server](https://miro.medium.com/max/431/1*LrU0kZBljjwd32vLy5IlwA.png)
+
 The project is more or less exactly the same as [Spring Security Oauth2 Authorization Server sample](https://github.com/spring-projects/spring-authorization-server/tree/0.2.0/samples/boot/oauth2-integration) (as of late sept 2021, v0.2.0)
 
 ## Requirements
 * Maven build tool v3.6+ 
   * If you want to use Grade the link above has the needed Gradle files available
 * Jdk 17 (because why not?)
-* Define "127.0.0.1 auth-server" in /etc/hosts
-  * Windows will be windows\system32\drivers\etc\hosts
+* Define `127.0.0.1 auth-server` in /etc/hosts
+  * Windows will be `windows\system32\drivers\etc\hosts`
 
 ## Getting started
 * Build and start Authorization Server
